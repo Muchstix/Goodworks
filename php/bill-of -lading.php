@@ -19,7 +19,6 @@ if (empty($_POST["nin"])) {
     $nationality = $_POST["nin"];
 }
 
-
 if (empty($_POST["nationality"])) {
     $errorMSG = "Nationality is required ";
 } else {
@@ -51,7 +50,7 @@ if (empty($_POST["terms"])) {
 }
 
 $EmailTo = "yourname@domain.com";
-$Subject = "New message from asset finder";
+$Subject = "New quote request from Aria landing page";
 
 // prepare email body text
 $Body = "";
@@ -82,7 +81,6 @@ $Body .= "\n";
 
 // send email
 $success = mail($EmailTo, $Subject, $Body, "From:".$email);
-
 // redirect to success page
 if ($success && $errorMSG == ""){
    echo "success";
