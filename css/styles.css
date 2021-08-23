@@ -147,9 +147,9 @@ strong {
 .btn-solid-reg {
 	display: inline-block;
 	padding: 1.1875rem 1.875rem 1.1875rem 1.875rem;
-	border: 0.125rem solid #14bf98;
+	border: 0.125rem solid #14bf31;
 	border-radius: 0.25rem;
-	background-color: #14bf98;
+	background-color: #14bf31;
 	color: #fff;
 	font: 700 0.75rem/0 "Montserrat", sans-serif;
 	text-decoration: none;
@@ -801,7 +801,39 @@ input[type='checkbox'] {
 	margin-bottom: 1.25rem;
 }
 
+/*********************/
+/* Header-coffee     */
+/*********************/
 
+.header-coffee {
+	background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)), url('../images/images(34).jpeg') center center no-repeat;
+	background-size: cover;
+}
+
+.header-coffee .header-content {
+	padding-top: 8rem;
+	padding-bottom: 2.125rem;
+	text-align: center;
+}
+
+.header-coffee .text-container {
+	margin-bottom: 3rem;
+}
+
+.header-coffee h1 {
+	margin-bottom: 0.5rem;
+	color: #fff;
+}
+
+.header-coffee .p-large {
+	margin-bottom: 2rem;
+	color: #dfe5ec;
+}
+
+.header-coffee .btn-solid-lg {
+	margin-right: 0.5rem;
+	margin-bottom: 1.25rem;
+}
 /*********************/
 /*     05. Intro     */
 /*********************/
@@ -1128,6 +1160,10 @@ input[type='checkbox'] {
 	width: 90%;
 }
 
+.tabs #tab-1 .progress-bar.fourth {
+	width: 95%;
+}
+
 .tabs #tab-2 .list-unstyled {
 	margin-top: 1.75rem;
 	margin-bottom: 0;
@@ -1224,7 +1260,7 @@ input[type='checkbox'] {
 	margin-right: auto;
 	margin-bottom: 0.25rem;
 	margin-left: auto;
-	border-radius: 50%;
+	border-radius: 25%;
 }
 
 .slider .card .card-body {
@@ -1786,6 +1822,41 @@ a:hover.back-to-top {
 
 .ex-header h1 {
 	color: #fff;
+}
+
+.assets-header {
+	background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)), url('../images/assets.jpg') center center no-repeat;
+	background-size: cover;
+}
+
+.financial-header {
+	background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)), url('../images/financial.jpg') center center no-repeat;
+	background-size: cover;
+}
+
+.group-header {
+	background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)), url('../images/group-loans.jpg') center center no-repeat;
+	background-size: cover;
+}
+
+.home-header {
+	background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)), url('../images/services-4.jpeg') center center no-repeat;
+	background-size: cover;
+}
+
+.individual-header {
+	background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)), url('../images/individual-loans.jpg') center center no-repeat;
+	background-size: cover;
+}
+
+.savings-header {
+	background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)), url('../images/savings-loans.jpg') center center no-repeat;
+	background-size: cover;
+}
+
+.school-header {
+	background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)), url('../images/school-fees-loans.jpg') center center no-repeat;
+	background-size: cover;
 }
 
 .ex-basic-1 {
